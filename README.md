@@ -1,5 +1,12 @@
 # Twitter User Classification: Influencer vs. Observer
 
+Link of the kaggle : https://www.kaggle.com/competitions/influencers-or-observers-predicting-social-roles
+
+## The Team: The 3 headed goats
+*   Octave Rebourseau
+*   Aziz Berthé
+*   Arthur Fournier
+
 ## Overview
 This repository contains a machine learning pipeline designed to classify Twitter users as either 'Influencers' or 'Observers' based on their tweet history and profile metadata[cite: 1]. Developed as part of the CSC_51054 Deep Learning course at École Polytechnique, this project achieved an 84.9% accuracy on the Kaggle Leaderboard[cite: 1].
 
@@ -17,8 +24,3 @@ The final model utilizes a 3-headed ensemble architecture (`VotingClassifier`) t
 *   **Machine Learning:** Scikit-learn, XGBoost
 *   **Deep Learning / NLP:** PyTorch, Hugging Face Transformers (CamemBERT), NLTK
 *   **Data Processing:** Pandas, NumPy, Regex[cite: 2]
-
-## Authors
-*   Octave Rebourseau
-*   Aziz Berthé
-*   Arthur Fournier
