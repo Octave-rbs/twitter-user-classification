@@ -20,5 +20,5 @@ The final model utilizes a 3-headed ensemble architecture (`VotingClassifier`) t
 
 ## Authors
 *   Octave Rebourseau
-*   Aziz Berthé[cite: 1]
-*   Arthur Fournier[cite: 1]
+*   Aziz Berthé
+*   Arthur Fournier
