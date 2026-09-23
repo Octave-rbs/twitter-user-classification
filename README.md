@@ -9,6 +9,11 @@ Link of the kaggle : https://www.kaggle.com/competitions/influencers-or-observer
 
 ## Overview
 This repository contains a machine learning pipeline designed to classify Twitter users as either 'Influencers' or 'Observers' based on their tweet history and profile metadata[cite: 1]. Developed as part of the CSC_51054 Deep Learning course at École Polytechnique, this project achieved an 84.9% accuracy on the Kaggle Leaderboard[cite: 1].
+<p align="center">
+  <img src="./image.jpg" width="700" alt="Architecture du modèle">
+</p>
+
+ **Figure 1 : 3-Headed Ensemble Architecture for Influencer Role Classification**
 
 ## Architecture
 The final model utilizes a 3-headed ensemble architecture (`VotingClassifier`) to capture different levels of information[cite: 1, 2]:
